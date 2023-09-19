@@ -1,0 +1,12 @@
+{
+    "configurations": [
+    {
+        "name": "Python : current file",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "args": ["convert", "--directory", "./pdf/", "--csv_path","output.csv"]
+    },
+    ]
+}
