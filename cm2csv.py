@@ -76,7 +76,7 @@ def sort_by_date(p_data):
 def write_csv(p_data, p_csv_path):
     with open(p_csv_path, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["date", "label", "credit", "debit"])  # Write header
+        writer.writerow(["Date", "Label", "Debit", "Credit"])  # Write header
         for row in p_data:
             writer.writerow(row)
 
